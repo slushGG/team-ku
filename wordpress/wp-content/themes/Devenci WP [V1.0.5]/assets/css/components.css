@@ -1,0 +1,62 @@
+
+
+.devenci-portfolio.is-editor .portfolio-filter.is-editor-preview {
+	pointer-events: none;
+	opacity: 0.85;
+}
+
+.member.is-editor {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.75rem;
+}
+
+.member.is-editor .member-img {
+	max-height: 320px;
+	width: auto;
+	filter: none;
+}
+
+.member.is-editor .member-name {
+	position: static;
+	opacity: 1;
+	transform: none;
+}
+
+.member.is-editor .member-card-placeholder {
+	max-width: 220px;
+	aspect-ratio: 3 / 4;
+	border: 1px dashed var(--gray-dark);
+	border-radius: 8px;
+}
+
+.portfolio-item.is-editor {
+	height: auto;
+	min-height: 250px;
+}
+
+.portfolio-item.is-editor .portfolio-overlay {
+	position: relative;
+	opacity: 1;
+	transform: none;
+	background: rgba(0, 0, 0, 0.65);
+	min-height: 140px;
+}
+
+.portfolio-item.is-editor .portfolio-img {
+	height: 220px;
+}
+
+.portfolio-item.is-editor .portfolio-img-placeholder {
+	height: 220px;
+}
+
+.contact-form-wrapper .contact-form {
+	margin: 0;
+}
+
+.social-links.wp-block-social-links {
+	margin-left: 0;
+}

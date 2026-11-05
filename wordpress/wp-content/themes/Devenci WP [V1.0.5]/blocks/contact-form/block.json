@@ -1,0 +1,23 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "devenci/contact-form",
+	"title": "Contact Form",
+	"category": "devenci",
+	"icon": "email",
+	"description": "An accessible contact form styled like the original terminal portfolio.",
+	"textdomain": "devenci",
+	"supports": {
+		"html": false,
+		"align": false,
+		"reusable": true
+	},
+	"attributes": {
+		"buttonText": {
+			"type": "string",
+			"default": "Send Message"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

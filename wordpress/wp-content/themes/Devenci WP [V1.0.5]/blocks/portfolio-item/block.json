@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "devenci/portfolio-item",
+	"title": "Portfolio Item",
+	"category": "devenci",
+	"icon": "format-image",
+	"description": "A single portfolio image with an editable overlay and optional link.",
+	"textdomain": "devenci",
+	"supports": {
+		"html": false,
+		"align": false,
+		"reusable": true
+	},
+	"attributes": {
+		"category": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"link": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

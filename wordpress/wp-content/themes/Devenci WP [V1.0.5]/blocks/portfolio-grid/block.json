@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "devenci/portfolio-grid",
+	"title": "Filterable Portfolio",
+	"category": "devenci",
+	"icon": "portfolio",
+	"description": "A portfolio grid with filter buttons generated from the categories of its items.",
+	"textdomain": "devenci",
+	"supports": {
+		"html": false,
+		"align": false,
+		"reusable": true
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}

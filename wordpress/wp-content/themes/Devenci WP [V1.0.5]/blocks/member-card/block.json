@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "devenci/member-card",
+	"title": "Member Card",
+	"category": "devenci",
+	"icon": "id",
+	"description": "A linked member portrait with a name label, used on the group homepage.",
+	"textdomain": "devenci",
+	"supports": {
+		"html": false,
+		"align": false,
+		"reusable": true
+	},
+	"attributes": {
+		"url": {
+			"type": "string",
+			"default": ""
+		},
+		"imageId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageAlt": {
+			"type": "string",
+			"default": ""
+		},
+		"delay": {
+			"type": "string",
+			"default": "0s"
+		}
+	},
+	"editorScript": "file:./index.js",
+	"render": "file:./render.php"
+}
