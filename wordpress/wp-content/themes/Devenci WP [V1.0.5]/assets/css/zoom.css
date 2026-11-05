@@ -1,0 +1,25 @@
+:root {
+  --devenci-zoom: 0.7;
+  --devenci-zoom-inverse: 1.4286;
+}
+
+@media (min-width: 1024px) {
+  html {
+    zoom: var(--devenci-zoom);
+  }
+
+  .blockchain-explorer,
+  .devenci-section,
+  .group-main {
+    min-height: calc(100vh * var(--devenci-zoom-inverse));
+  }
+
+  .members {
+    width: min(1500px, calc(100vw * var(--devenci-zoom-inverse) - 20px));
+  }
+
+  html,
+  body {
+    background-color: var(--wp--preset--color--black, #111111);
+  }
+}

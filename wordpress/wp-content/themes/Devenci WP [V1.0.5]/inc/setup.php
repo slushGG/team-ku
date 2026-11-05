@@ -73,6 +73,7 @@ function devenci_enqueue_assets() {
 	wp_enqueue_style( 'devenci-base', $theme_uri . '/assets/css/base.css', array( 'devenci-fontawesome' ), devenci_asset_version( 'assets/css/base.css' ) );
 	wp_enqueue_style( 'devenci-components', $theme_uri . '/assets/css/components.css', array( 'devenci-base' ), devenci_asset_version( 'assets/css/components.css' ) );
 	wp_enqueue_style( 'devenci-group', $theme_uri . '/assets/css/group.css', array( 'devenci-components' ), devenci_asset_version( 'assets/css/group.css' ) );
+	wp_enqueue_style( 'devenci-zoom', $theme_uri . '/assets/css/zoom.css', array( 'devenci-group' ), devenci_asset_version( 'assets/css/zoom.css' ) );
 
 	wp_enqueue_script( 'devenci-particles', $theme_uri . '/assets/vendor/particles.min.js', array(), DEVENCI_VERSION, true );
 	wp_enqueue_script( 'devenci-gsap', $theme_uri . '/assets/vendor/gsap.min.js', array(), DEVENCI_VERSION, true );
