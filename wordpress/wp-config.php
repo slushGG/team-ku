@@ -20,13 +20,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'team_ku_port' );
+define( 'DB_NAME', 'team-ku-port' );
 
 /** Database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'team-ku-user' );
 
 /** Database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', 'Hostinger-opolmho2026' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
