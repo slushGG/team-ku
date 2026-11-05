@@ -35,7 +35,7 @@
 }
 
 .members {
-  --member-gap-x: 2%; /* extra horizontal breathing room between member images */
+  --member-gap-x: 3%; /* extra horizontal breathing room between member images */
   position: relative;
   width: min(1500px, calc(100vw - 20px));
   aspect-ratio: 16 / 9;
